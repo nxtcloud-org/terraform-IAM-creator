@@ -36,12 +36,6 @@ variable "managed_policy_arns" {
   ]
 }
 
-variable "password_length" {
-  description = "IAM 사용자를 위해 생성되는 비밀번호의 길이"
-  type        = number
-  default     = 12
-}
-
 variable "result_file_name" {
   description = "사용자 정보를 저장할 파일의 이름"
   type        = string
